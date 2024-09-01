@@ -1,6 +1,6 @@
-import Content from "../components/Content";
+import Content from "../components/FarmerDiscoverPage/Content";
 import Footer from "../components/Footer";
-import FarmerDiscoverPageNavbar from "../components/FarmerDiscoverPageNavbar";
+import FarmerDiscoverPageNavbar from "../components/FarmerDiscoverPage/FarmerDiscoverPageNavbar";
 
 const FarmersDiscoverPage = () => {
   return (

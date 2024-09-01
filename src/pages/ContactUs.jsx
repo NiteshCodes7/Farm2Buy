@@ -8,7 +8,7 @@ const ContactUs = () => {
   const [selectedRole, setSelectedRole] = useState("");
 
   return (
-    <div className="self-stretch w-full h-full relative shadow-[0px_3px_6px_rgba(18,_15,_40,_0.12)] bg-white overflow-hidden flex flex-col items-center justify-start pt-[30.8px] px-0 box-border gap-[40.2px] leading-[normal] mq1050:h-auto">
+    <div className="self-stretch w-full h-full relative shadow-[0px_3px_6px_rgba(18,_15,_40,_0.12)] bg-white overflow-hidden flex flex-col items-center justify-start px-0 box-border gap-[40.2px] leading-[normal] mq1050:h-auto">
       <ContactNavbar />
       <section className="self-stretch flex flex-row items-start justify-center pt-0 pb-[21.8px] pl-5 pr-[21px] box-border max-w-full shrink-0 text-left text-[41px] text-black font-lexend">
         <div className="w-[813px] flex flex-col items-start justify-start gap-[19px] max-w-full">
@@ -52,6 +52,7 @@ const ContactUs = () => {
                   className="w-full [border:none] [outline:none] font-manrope text-base bg-[transparent] h-[26px] relative leading-[26px] text-dimgray-500 text-left inline-block py-5"
                   placeholder="Full name"
                   type="text"
+                  required
                 />
               </div>
               </div>

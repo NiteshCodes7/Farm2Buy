@@ -1,6 +1,6 @@
 const FrameComponent2 = () => {
   return (
-    <div className="self-stretch flex flex-row items-start justify-start mt-[50px] pt-0 px-0.5 pb-[100px] box-border max-w-full shrink-0 w-auto p-8 gap-0 text-left text-57xl text-black font-lexend mq800:mb-[260px] mq450:mb-[1270px]">
+    <div className="self-stretch flex flex-row items-start justify-start mt-[50px] pt-0 px-0.5 pb-[100px] box-border max-w-full shrink-0 w-auto p-8 gap-0 text-left text-57xl text-black font-lexend ">
       <div className="flex-1 flex flex-col items-start justify-start pt-0 px-0 box-border gap-[26px] max-w-full">
         <div className="flex flex-row items-start justify-start py-0 px-[21px] box-border max-w-full shrink-0">
           <h1 className="m-0 text-inherit leading-[100px] font-bold mq450:text-27xl mq450:leading-[60px] mq800:text-42xl mq800:leading-[80px]">

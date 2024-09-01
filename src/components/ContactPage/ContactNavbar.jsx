@@ -20,9 +20,9 @@ const Navbar = () => {
     };
 
     return (
-        <div>
-            <header className="self-stretch flex flex-row items-center justify-between top-[0] z-[99] sticky gap-[400px] px-5 w-full h-auto text-left text-darkolivegreen font-lexend">
-                <a className="w-[52px] text-5xl relative leading-[52px] font-extrabold flex whitespace-nowrap h-auto z-[1] text-[inherit]">
+        <div className='w-full bg-gainsboro-800 py-1'>
+            <header className="self-stretch flex flex-row items-center justify-evenly top-[0] z-[99] sticky gap-[300px] w-full h-auto text-darkolivegreen font-lexend mq1350:gap-[200px] mq1050:gap-[120px] mq800:gap-[400px] mq450:gap-[140px]">
+                <a className="w-auto text-5xl relative leading-[52px] font-extrabold flex whitespace-nowrap h-auto z-[1] text-[inherit]">
                     <span>Farm</span>
                     <span className="text-darkslategray-700">2</span>
                     <span className="text-red-100">Buy</span>
